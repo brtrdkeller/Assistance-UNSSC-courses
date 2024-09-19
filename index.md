@@ -4,6 +4,8 @@ title: Technical Assistance UNSSC
 
 # Technical Assistance UNSSC
 
+## Presentation
+
 Moddle is a learning platform which is taking care about digital accessibility. UNSSC is asking to test a basic navigation.
 
 UNSCC create some development over the Moddle platform. They want us to test especially this specifics development.
@@ -13,8 +15,9 @@ Be careful, we have only one authentification code. So maybe some parameters can
 ## Goals
 
 1. Find the critical Issues
-2. Find the more valuable Issues
-3. Communicate on the main recommandation
+1. Find the more valuable Issues
+1. Insist on specific component coded by UNSSC
+1. Communicate correctly on the main recommandation
 
 ## Tree Structure
 
@@ -30,14 +33,14 @@ Be careful, we have only one authentification code. So maybe some parameters can
  2. Course Catalogue (Landing page of a search)
  3. Course Unit (Called "Best Value Unit")
 
-Open the image of the [UNSSC tree structure graph](UNSSC.png)
-
 ### My account
 
  1. My profile
  2. Preferences
     1. Notification Preference
     2. Change Password
+
+Open the image of the [UNSSC tree structure to test graph](UNSSC.png)
 
 ## Possible User tests
 
