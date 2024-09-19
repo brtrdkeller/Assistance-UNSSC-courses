@@ -16,7 +16,7 @@ title: Technical Assistance UNSSC
  2. Course Catalogue (Landing page of a search)
  3. Course Unit (Called "Best Value Unit")
 
-Open the image of the ![UNSSC tree structure graph](UNSSC.png)
+Open the image of the [UNSSC tree structure graph](UNSSC.png)
 
 ### My account
 
@@ -34,4 +34,4 @@ Open the image of the ![UNSSC tree structure graph](UNSSC.png)
 - I want to bookmark a course
 - I want to check my calendar
 - I want to continue the course I left.
-- I want to contact site support
+- I want to contact the site support
