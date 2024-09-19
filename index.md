@@ -4,17 +4,27 @@ title: Technical Assistance UNSSC
 
 # Technical Assistance UNSSC
 
+Moddle is a learning platform which is taking care about digital accessibility. UNSSC is asking to test a basic navigation.
+
+UNSCC create some development over the Moddle platform. They want us to test especially this specifics development.
+
+## Goals
+
+1. Find the critical Issues
+2. Find the more valuable Issues
+3. Communicate on the main recommandation
+
 ## Tree Structure
 
 ### Login
 
- 1. Home Page (Redirect to different courses platfom)
+ 1. Home Page (Redirect to different courses platform)
  2. Login (Login Form)
  3. Password forgotten (Form)
 
 ### Courses
 
- 1. Dashboard
+ 1. Dashboard or My Learning
  2. Course Catalogue (Landing page of a search)
  3. Course Unit (Called "Best Value Unit")
 
@@ -29,11 +39,34 @@ Open the image of the [UNSSC tree structure graph](UNSSC.png)
 
 ## Possible User tests
 
-- I forgot my password
-- I want to change my password
-- I want to set notifications
-- I'm looking for a course with "Money" in the title
-- I want to bookmark a course
-- I want to check my calendar
-- I want to continue the course I left.
-- I want to contact the site support
+### I forgot my password
+ 
+I can't connect on the login page. I think I forgot my password, I would like to have another 
+
+### I want to change my password
+
+I'm afraid someone took my password and find I'm following certains courses.
+
+### I want to set notifications
+
+Notifications are disturbing me. I would like to stop them.
+
+### I'm looking for a course with "Money" in the title
+
+Someone told me about a course I have to follow. The is the word "Money" in the title
+
+### I want to bookmark a course
+
+I should have time next month, my manager told me to take advantage of this time for followinf some courses. I would like to bookmark some of them. 
+
+### I want to check my calendar
+
+I subscribe some courses, I have to plan my week.
+
+### I want to continue the course I left.
+
+I think, I left a course in the middle. Can I continue it, exactly where I stopped.
+
+### I want to contact the site support
+
+I'm blocked in the website. I have to contact the support team. 
