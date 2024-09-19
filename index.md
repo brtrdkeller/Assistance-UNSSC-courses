@@ -6,37 +6,37 @@ title: Technical Assistance UNSSC
 
 ## Presentation
 
-Moddle is a learning platform which is taking care about digital accessibility. UNSSC is asking to test a basic navigation.
+Moddle is a learning platform which is allready taking care about digital accessibility. UNSSC is asking to test a basic navigation, not the whole website (Because they can't act on it).
 
-UNSCC create some development over the Moddle platform. They want us to test especially this specifics development.
+UNSCC create some development over the Moddle platform. They want us to test especially this specifics developments.
 
-Be careful, we have only one authentification code. So maybe some parameters can be modify wether by Prashant or by testing users. It can affect bookmarking especially.
+Be careful, we have only one authentification code. Maybe some parameters can be modified wether by Prashant or by testing users. It can affect bookmarking especially, or the progression in a course.
 
 ## Goals
 
 1. Find the critical Issues
 1. Find the more valuable Issues
-1. Insist on specific component coded by UNSSC
-1. Communicate correctly on the main recommandation
+1. Insist on specific component coded by UNSSC (Dashboard and Profile Page, I noted)
+1. Communicate precisely on the main recommandation
 
 ## Tree Structure
 
 ### Login
 
- 1. Home Page (Redirect to different courses platform)
+ 1. Home Page (Page who is redirecting to different courses platform, but not functional)
  2. Login (Login Form)
  3. Password forgotten (Form)
 
 ### Courses
 
- 1. Dashboard or My Learning
+ 1. Dashboard or My Learning (The both are present only on this test platform)
  2. Course Catalogue (Landing page of a search)
  3. Course Unit (Called "Best Value Unit")
 
 ### My account
 
  1. My profile
- 2. Preferences
+ 2. Preferences (Only for users test)
     1. Notification Preference
     2. Change Password
 
