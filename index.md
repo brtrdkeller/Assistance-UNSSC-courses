@@ -87,3 +87,12 @@ I'm blocked in the website. I have to contact the support team.
 1. Help center is not a priority
 1. The content of a course
 1. Messageres, private files, Reports, Calendar page
+
+## Resources
+
+ * [Creating an Accessibility Audit Report Template - DEQUE](https://www.digitala11y.com/creating-an-accessibility-audit-template/)
+ * [Template for Accessibility Evaluation Reports ](https://www.w3.org/WAI/test-evaluate/report-template/)
+ * [Writing Impactful Accessibility Reports](https://medium.com/openconcept-stories/writing-impactful-accessibility-reports-d6cdd84356fd)
+ * [Accessibility Checklist - 18F](https://guides.18f.gov/accessibility/checklist/)
+ * [VPAT - ITI](https://www.itic.org/policy/accessibility/vpat)
+ * [Accessibility Statement Example - European Union](https://european-union.europa.eu/accessibility-statement_en)
