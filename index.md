@@ -42,7 +42,7 @@ Be careful, we have only one authentification code. So maybe some parameters can
 
 Open the image of the [UNSSC tree structure to test graph](UNSSC.png)
 
-## Possible User tests
+## Basic idea for User tests
 
 ### I forgot my password
  
@@ -56,7 +56,7 @@ I'm afraid someone took my password and find I'm following certains courses or m
 
 Notifications are disturbing me. I would like to stop them.
 
-### In "My learning page", I ant to filter my course
+### In "My learning page", I want to filter my course
 
 I would like to find the list of completed courses.
 
