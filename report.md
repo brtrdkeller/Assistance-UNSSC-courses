@@ -36,3 +36,23 @@ Image tag are calling "svg" images. Without image alternative text.
 Text should better describe the purpose of a link. 
 
 Link's text should contains the name of the website linked. Maybe add a text before the link with the description of the website.
+
+## Dashboard
+
+### 1. Skip links visibility
+ 
+Skip links navigation is hidden (whend focused) by the header region. 
+
+**Recommandation**: Modify the z-index of `.navbar .navbar-top` in CSS code.
+
+### 2. Skip links region
+
+Skip links redirects the "Activity Bookmarks" block. All the blocks before are skipped. 
+
+### 3. Main Navigation
+
+Links have a `tabindex=-1`, except "Dashboard". All the other links than "Dashboard" are ignored by a keyboard navigation
+
+### 4. Learning Plan Block
+
+The bookmark button is not focusable. 
