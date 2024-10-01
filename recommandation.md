@@ -64,3 +64,17 @@ Links have a `tabindex=-1`, except "Dashboard". All the other links than "Dashbo
 ### 5. Learning Plan Block
 
 The "bookmark" button is not focusable. 
+
+## Ethics and Integrity in Procurement <https://playground.unssc.org/course/view.php?id=104>
+
+### 1. Lesson block
+
+NVDA (Windows/Firefox) don't read the text of the button for expanding the lesson content. `aria-label` is not read. "Narrator" read text but don't teel anything about the state of the expandable zone.
+
+### 2. "Mark as done" button and Bookmark button
+
+Any action button doesn't indicate a feedback after being triggered. 
+
+**Recommandation**: Creating an `alert` zone when a button is triggered. The action should be validated in the best case.
+
+
