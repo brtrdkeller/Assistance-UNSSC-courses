@@ -33,7 +33,7 @@ Image tag are calling "svg" images. Without image alternative text.
 
 **Recommandation**:  Parameters should be added, as : `alt=""` and `role="image"`.
 
-### 6. Choosing Website Component - Images
+### 6. Choosing Website Component - Link
 
 Text should better describe the purpose of a link. 
 
@@ -51,10 +51,16 @@ Skip links navigation is hidden (whend focused) by the header region.
 
 Skip links redirects the "Activity Bookmarks" block. All the blocks before are skipped. 
 
-### 3. Main Navigation
+### 1. Home link
+ 
+The "home" link redirect to the main page (Dashboard). It should be explicit.
+
+**Recommandation**: Rename the image `alt` with a better text (Ex. Home + Name og the website). Or ignore image and had a text in the link with a `class="sr-only"`.
+
+### 4. Main Navigation
 
 Links have a `tabindex=-1`, except "Dashboard". All the other links than "Dashboard" are ignored by a keyboard navigation.
 
-### 4. Learning Plan Block
+### 5. Learning Plan Block
 
 The "bookmark" button is not focusable. 
