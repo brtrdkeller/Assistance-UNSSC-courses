@@ -39,6 +39,20 @@ Text should better describe the purpose of a link.
 
 Link's text should contains the name of the website linked. Maybe add a text before the link with the description of the website.
 
+## Main Template Recommandation
+
+### 1. Main banner
+
+The main banner is declared as a `<nav>`. It should be a `<header>`
+
+**Recommandation**: Change the `<nav>` container for a `<header>` container for the main banner
+
+### 2. Landmark
+
+When navigating on the interface, any Landmark presents a label. Landmark should have a label for a better navigation
+
+**Recommandation**: Add `aria-label` on landmark. Ex. `<header aria-label='Main'>`.
+
 ## Dashboard - <https://playground.unssc.org/my/>
 
 ### 1. Skip links visibility
