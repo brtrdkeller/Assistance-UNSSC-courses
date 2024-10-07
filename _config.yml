@@ -2,3 +2,4 @@ title: Technical Assistance UNSSC
 description: Description page a technical assistance
 permalink: pretty
 theme: "jekyll-whiteglass"
+remote_theme: "jekyll-whiteglass"
