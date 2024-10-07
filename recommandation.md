@@ -1,8 +1,7 @@
 ---
+title: Technicals Recommandations
 layout: default
 ---
-
-# Technicals Recommandations
 
 ## Home page - <https://playground.unssc.org/>
 

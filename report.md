@@ -1,8 +1,7 @@
 ---
+title: Accessibility report
 layout: default
 ---
-
-# UNSSC Playground Accessibility report
 
 ## Context
 
