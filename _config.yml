@@ -2,3 +2,6 @@ title: Technical Assistance UNSSC
 description: Description page a technical assistance
 permalink: pretty
 remote_theme: "https://github.com/yous/whiteglass"
+
+plugins:
+  - jekyll-remote-theme
