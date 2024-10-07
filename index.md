@@ -1,5 +1,6 @@
 ---
 title: Technical Assistance UNSSC
+layout: default
 ---
 
 # Technical Assistance UNSSC
