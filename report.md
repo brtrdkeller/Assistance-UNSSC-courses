@@ -1,4 +1,5 @@
 ---
+layout: default
 ---
 
 # UNSSC Playground Accessibility report
