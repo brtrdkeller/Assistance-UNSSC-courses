@@ -19,25 +19,23 @@ title: User Test Report
 
 ### Login                                               
 
-#### Scenario 1
+#### Action 1
 
 **Description**
 Home Page (Page which is redirecting to different courses platform, but not functional)                                                                                           
 
-**Result**
-Home Page This page is accessible. I am able to navigate with a keyboard. It has minimal information.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
-                                       
+**Result**  
+Home Page This page is accessible. I am able to navigate with a keyboard. It has minimal information.
 
-#### Scenario 2
+#### Action 2
 
 **Description**
 Login (Login Form)                                                                                                                                                                 
 
-**Result**
-I was able to input the username and password without difficulty. Once I logged in, I got a message asking me to save the username and password  but this message disappeared before I could act on it.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
-                                
+**Result**  
+I was able to input the username and password without difficulty. Once I logged in, I got a message asking me to save the username and password  but this message disappeared before I could act on it.
 
-#### Scenario 3
+#### Action 3
 
 **Description**
 Password forgotten (Form)                                                                                                                                                          
@@ -45,42 +43,38 @@ Password forgotten (Form)
 **Result**
 I entered the username and pressed lost password, I got an option to get password on my mail id, but it did not get processed.The following error was given:Error sending password change confirmation emailerror/moodle/cannotmailconfirmJump to:navigation, searchThis page elaborates the error "Error sending password change confirmation email"This error is shown when the server fails to send the email to the requested email id containing details about how to reset the password. This is most likely a server issue.If you are a user• Inform your administrator immediately. There is nothing you can do to fix this issue.If you are an Administrator• Please Check that SMTP server is correctly set.• Ensure that SMTP server is able to send emails.                                                                                            
 
-**Note**
+**Note :**
 Screenshot ‘Forgot password error’ included
-
 
 ### Courses                                             
 
-#### Scenario 1
+#### Action 1
 
 **Description**
 Dashboard or My Learning (Both are present only on this test platform)                                                                                                             
 
 **Result**
-Able to navigate to Dashboard and My Learning tabs                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
-                               
+Able to navigate to Dashboard and My Learning tabs.
 
-#### Scenario 1
+#### Action 2
 
 **Description**
 Course Catalogue (Landing page of a search) - Check different views- grid, list and carousel.                                                                                      
 
 **Result**
-Able to view and navigate course catalogue and different views. Grid, list, carousel                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
-                               
+Able to view and navigate course catalogue and different views. Grid, list, carousel.
 
-#### Scenario 1
+#### Action 3
 
 **Description**
 Course Unit (Called “Best Value Unit”)                                                                                                                                             
 
 **Result**
-Found course called Best Value for money.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
-
+Found course called Best Value for money.
 
 ### Dashboard                                           
 
-#### Scenario 1
+#### Action 1
 
 **Description**
 Add/remove courses                                                                                                                                                                 
@@ -88,52 +82,47 @@ Add/remove courses
 **Result**
 Add Course is available from the Courses page. I was able to add a course though there is no audio confirmation when a course is added. Remove Course does not work consistently. Tabbing through the course information does not go to the Remove course from plan link, though this can be accessed via a mouse and there is a visual bookmark indicator.There is no audio confirmation that Course has been deleted-The bookmark icon changes visually, but there is no audio feedback.We need to go back to Course page to remove Course and check if Course has been removed Inconsistent availability of Remove option – On repeated use, sometimes the remove option doesn’t appear either as a button or link and does not work on the dashboard and I had to go to the add courses page and remove the files, another day it appears as a link and works. 
 
-
 ### My Account                                          
 
-#### Scenario 1
+#### Action 1
 
 **Description**
 My profile                                                                                                                                                                         
 
 **Result**
-Tabbing on Dashboard page reaches My account tab.After the search button, the next tab is read out as ‘toggle messaging drawer graphic link’Account has Profile, Calendar, Private Files, Reports, Preferences, Log Out                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
-                                      
+Tabbing on Dashboard page reaches My account tab.After the search button, the next tab is read out as ‘toggle messaging drawer graphic link’Account has Profile, Calendar, Private Files, Reports, Preferences, Log Out.
 
-#### Scenario 1
+#### Action 2
 
 **Description**
 Preferences (Only for users test)                                                                                                                                                  
 
 **Result**
-Edit preferences- Added description easily                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
-                                     
+Edit preferences- Added description easily
 
-#### Scenario 1
+#### Action 3
 
 **Description**
 Notification Preference / Notifications are disturbing me. I would like to stop them.                                                                                              
 
 **Result**
-Notification preferences- only check box to disable notifications is functional, which I can navigate with the tab key. The options under that can be accessed with the arrow keys, although they are not functional.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
-                                      
+Notification preferences- only check box to disable notifications is functional, which I can navigate with the tab key. The options under that can be accessed with the arrow keys, although they are not functional. 
 
-#### Scenario 1
+#### Action 4
 
 **Description**
 Change Password                                                                                                                                                                    
 
 **Result**
-Able to change password successfully. Changed to learnerhi123 and back to original one.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
-                                    
+Able to change password successfully. Changed to learnerhi123 and back to original one.
 
-#### Scenario 1
+#### Action 5
 
 **Description**
 Open the image of the UNSSC tree structure to test graph                                                                                                                           
 
 **Result**
-I can’t figure out where the UNSSC tree structure is                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
+I can’t figure out where the UNSSC tree structure is
 
 ## Scenarios
 
@@ -150,7 +139,7 @@ I was able to view the list of completed courses
 Someone told me about a course I have to follow. The is the word “Money” in the title.                                                                                             
 
 **Result**
-I was able to find a course with Money in the title                                                                                                                                                                                                                                                                                                                                                                                                                                           
+I was able to find a course with Money in the title
 
 #### Scenario - I’m looking for a course with a specific theme
 
@@ -191,7 +180,8 @@ Yes, I am able to navigate to the course and continue from where I left off
 I’m blocked in the website. I have to contact the support team.                                                                                                                    
 
 **Result**
-The contact site support link is very difficult to find using a screen reader. It currently pops up when tabbing to the ‘Show footer’ link and clicking on. This needs to be changed to have a separate link saying ‘Contact Site Support’When I tried to send an email to site support, the email could not be sent                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
+The contact site support link is very difficult to find using a screen reader. It currently pops up when tabbing to the ‘Show footer’ link and clicking on. This needs to be changed to have a separate link saying ‘Contact Site Support’When I tried to send an email to site support, the email could not be sent
+
 **Note**
 See site support screenshot               
 
