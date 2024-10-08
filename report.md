@@ -1,6 +1,5 @@
 ---
 title: Accessibility report
-layout: default
 ---
 
 ## Context

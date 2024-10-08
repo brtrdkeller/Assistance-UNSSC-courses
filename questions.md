@@ -1,5 +1,5 @@
 ---
-layout: default
+title: Questions
 nav_exclude: true
 ---
 # Questions
