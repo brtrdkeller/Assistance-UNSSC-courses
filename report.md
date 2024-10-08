@@ -1,5 +1,13 @@
 ---
-title: Accessibility report
+title: Accessibility Report
+---
+
+## Table of contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
 ---
 
 ## Context
