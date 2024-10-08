@@ -10,7 +10,9 @@ title: Technicals Recommandations
 
 ---
 
-## Home page - <https://playground.unssc.org/>
+## Home page 
+
+**url:** <https://playground.unssc.org/>
 
 ### Skip links
  
@@ -63,7 +65,9 @@ When navigating on the interface, any Landmark presents a label. Landmark should
 
 **Recommandation**: Add `aria-label` on landmark. Ex. `<header aria-label='Main'>`.
 
-## Dashboard - <https://playground.unssc.org/my/>
+## Dashboard
+
+**url:** <https://playground.unssc.org/my/>
 
 ### Skip links visibility
  
@@ -89,7 +93,9 @@ Links have a `tabindex=-1`, except "Dashboard". All the other links than "Dashbo
 
 The "bookmark" button is not focusable. 
 
-## Ethics and Integrity in Procurement <https://playground.unssc.org/course/view.php?id=104>
+## Ethics and Integrity in Procurement
+
+**url:** <https://playground.unssc.org/course/view.php?id=104>
 
 ### Lesson block
 

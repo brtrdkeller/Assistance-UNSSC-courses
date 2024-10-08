@@ -2,14 +2,6 @@
 title: User Test Report
 ---
 
-## Table of contents
-{: .no_toc .text-delta }
-
-1. TOC
-{:toc}
-
----
-
 ## Context
 
 **Test completion date:** 27-Sep-2024  
