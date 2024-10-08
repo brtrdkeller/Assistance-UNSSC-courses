@@ -16,9 +16,9 @@ title: Accessibility Report
 
 **Date :** 22/09/2024
 
-***Method and Tools used in evaluation:**
+**Method and Tools used in evaluation:**
  - Wave accessibility checker, 
- - Paul. j Adam Bookmarks, 
+ - Paul J. Adam Bookmarks, 
  - NVDA, 
  - Color Contrast Analyzer (CCA),
  - Manual Testing.
