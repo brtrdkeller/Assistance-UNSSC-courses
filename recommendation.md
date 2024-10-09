@@ -20,7 +20,8 @@ nav_order: 99
 The skiplink is referencing "#maincontent". But the "id" "maincontent" is apply is an empty `<div>` which is called `"user-notification"` in "page-outer". So users are going to an empty area.
 The main content has been inserted in a `<section role="complementary">` region called `"block_unssctenantselector"`.
 
-{: .highlight } The `id="maincontent` should be moved.
+{: .highlight }
+The `id="maincontent` should be moved.
 
 ```
 <section id="inst1194"
@@ -37,7 +38,8 @@ The main content has been inserted in a `<section role="complementary">` region 
 
 There isn't any `<h1>` in the page. Only a `<h4>` heading is present. Headings are not explicit.
 
-{: .highlight } The heading hierachy has to be changed. We could have 2 titles `<h1>` and `<h2>`. Ex. "Welcome in a our learning home page" and "Choose a learning website"
+{: .highlight }
+The heading hierachy has to be changed. We could have 2 titles `<h1>` and `<h2>`. Ex. "Welcome in a our learning home page" and "Choose a learning website"
 
 ## Main region
 
@@ -62,19 +64,22 @@ The `<section>` has an attribute `aria-labelledby="instance-1194-header"`. It's 
 
 "Continue" link is not an explicit text. The "closing link" contains the value : "X". 
 
-{: .highlight } "Continue" link must be renamed. The closing button content should have a label (ex. `aria-label="Close"`).
+{: .highlight }
+"Continue" link must be renamed. The closing button content should have a label (ex. `aria-label="Close"`).
 
 ### Policies panel - modal content
 
 This panel contains some links which are opening modal box. 
 
-{: .highlight } The modal's content is not well formated. Ex. Headings are missing.
+{: .highlight }
+The modal's content is not well formated. Ex. Headings are missing.
 
 ### Choosing Website Component - Images
 
 Image tag are calling an "svg" images. Without image alternative text.
 
-{: .highlight }  Parameters should be added, as : `alt=""` and `role="image"`.
+{: .highlight }
+ Parameters should be added, as : `alt=""` and `role="image"`.
 
 ### Choosing Website Component - Link
 
@@ -86,7 +91,8 @@ Link's text should contains the name of the website linked. MAdd a text before t
 
 The `<footer>` landmark precise any `role`.
 
-{: .highlight } The `<footer>` landmark should have a `role=contentinfo`.
+{: .highlight }
+The `<footer>` landmark should have a `role=contentinfo`.
 
 ## Login page
 
@@ -96,13 +102,15 @@ The `<footer>` landmark precise any `role`.
  
 Text should better describe the purpose. "Change site" doesn't describe the action enough.
 
-{: .highlight } The link text should be "Change e-learning website" or "Find another e-learning website"
+{: .highlight }
+The link text should be "Change e-learning website" or "Find another e-learning website"
 
 ### Looking for a different Site Dialog box
  
 User can select a button before validated the redirection in the dialog box. There is any vocal indication that the button is selected or not selected. 
 
-{: .highlight } Item should be selectable with a vocal feedback.
+{: .highlight }
+Item should be selectable with a vocal feedback.
 
 ## Main logo
 
@@ -116,7 +124,8 @@ The <alt> attribute value is "The blue line", whereas the text displayed in the 
 
 Any link in the header is functional, user is blocked if policies are not validated. Validation `<button>` are at the bottom of the page. A user may not understand he has to go at the bottom of the page validating Policies.
 
-{: .highlight } One option is to put buttons could be on the top. An other option is to renamed the page. Ex. "Validate the Moodle Privacy Policy".
+{: .highlight }
+One option is to put buttons could be on the top. An other option is to renamed the page. Ex. "Validate the Moodle Privacy Policy".
 
 ## Main Inside Template Recommendation
 
@@ -124,13 +133,15 @@ Any link in the header is functional, user is blocked if policies are not valida
 
 The main banner is declared as a `<nav>`. It should be a `<header>`
 
-{: .highlight } Change the `<nav>` container for a `<header>` container for the main banner
+{: .highlight }
+Change the `<nav>` container for a `<header>` container for the main banner
 
 ### Landmark
 
 When navigating on the interface, any Landmark presents a label. Landmark should have a label for a better navigation
 
-{: .highlight } Add `aria-label` on landmark. Ex. `<header aria-label='Main'>`.
+{: .highlight }
+Add `aria-label` on landmark. Ex. `<header aria-label='Main'>`.
 
 ## Dashboard
 
@@ -140,7 +151,8 @@ When navigating on the interface, any Landmark presents a label. Landmark should
  
 Skip links navigation is hidden (when focused) by the header region. 
 
-{: .highlight } Modify the z-index of `.navbar .navbar-top` or `.sr-only-focusable:active, .sr-only-focusable:focus` in CSS code.
+{: .highlight }
+Modify the z-index of `.navbar .navbar-top` or `.sr-only-focusable:active, .sr-only-focusable:focus` in CSS code.
 
 ### Skip links region
 
@@ -163,7 +175,8 @@ In the filter Dropddown menu, the language filter is not focusable.
 
 {: .note } Filters are accessible but are changing dynamicaly the content of the courses area. If filters are too complicated to use, it is possible to hide them. But users will have to navigate in all their courses. It can be a choice for avoiding blind users to loosing time.
 
-{: .highlight } Add a `tabindex=0` attribute on the `<div>` tag.
+{: .highlight }
+Add a `tabindex=0` attribute on the `<div>` tag.
 
 ```
 <div class="dropdown-header icons-collapse-expand list-group-item d-flex align-items-center collapsed"
@@ -193,7 +206,8 @@ In the filter Dropddown menu, the language filter is not focusable.
 
 The content of the block is dynamicaly updated when filters are activated. The update should be vocalized.
 
-{: .highlight } An `aria-live` region should be add in the code for preventing users that content is updated.
+{: .highlight }
+An `aria-live` region should be add in the code for preventing users that content is updated.
 
 ```
 <div data-region="course_list" class="lp-courses-wrap p-3 position-relative d-flex" aria-live="polite">
@@ -227,4 +241,5 @@ NVDA (Windows/Firefox) don't read the text of the button for expanding the lesso
 
 Any action button indicate a feedback after being triggered. 
 
-{: .highlight } Creating an `alert` zone when a button is triggered. The action should be validated (in a dialog box) in the best case.
+{: .highlight }
+Creating an `alert` zone when a button is triggered. The action should be validated (in a dialog box) in the best case.
