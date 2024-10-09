@@ -1,6 +1,23 @@
 title: ITA UNSSC
 description: Website to follow the UNSSC digital accessibility evaluation. You'll find all the documents listing users and technical issues.
 
+callouts:
+  highlight:
+    title: Recommendation
+    color: yellow
+  important:
+    title: Important
+    color: blue
+  new:
+    title: New
+    color: green
+  note:
+    title: Note
+    color: purple
+  warning:
+    title: Warning
+    color: red
+
 permalink: pretty
 remote_theme: "https://github.com/just-the-docs/just-the-docs"
 heading_anchors: true
