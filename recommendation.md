@@ -150,7 +150,8 @@ Skip links ("Skip to the main content") redirects the "Activity Bookmarks" block
  
 The "home" link redirect to the main page (Dashboard). It should be explicit.
 
-{: .highlight } Rename the image `alt` with a better text (Ex. Home + Name of the website). Or ignore image and had a text in the link with a `class="sr-only"`.
+{: .highlight }
+Rename the image `alt` with a better text (Ex. Home + Name of the website). Or ignore image and had a text in the link with a `class="sr-only"`.
 
 ### Main Navigation
 
