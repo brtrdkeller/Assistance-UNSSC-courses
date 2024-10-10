@@ -122,7 +122,7 @@ title: Accessibility Report
 
  - **Reflow -** After zooming to 300%, the page starts to flow in two dimensions.
 
- **Best Value for Money -** https://playground.unssc.org/course/view.php?id=105
+ - **Best Value for Money -** https://playground.unssc.org/course/view.php?id=105
 
  - **Heading Hierarchy -** The heading hierarchy is broken, with an H3 appearing immediately after an H1 on the page.
 
