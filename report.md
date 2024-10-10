@@ -23,7 +23,10 @@ title: Accessibility Report
  - Color Contrast Analyzer (CCA),
  - Manual Testing.
 
-**Note:** When the header receives focus, it lands on the 'Dashboard' button. To access other header buttons, users have to press the left and right arrow keys. Although this does not fail any guidelines, to improve navigation, ensure all header buttons can be accessed using tab navigation, or provide a message when the 'Dashboard' button receives focus: 'To access the other buttons, press the left and right arrow keys.'
+{: .note }
+> When the header receives focus, it lands on the 'Dashboard' button. To access other header buttons, users have to press the left and right arrow keys.
+> 
+> Although this does not fail any guidelines, to improve navigation, ensure all header buttons can be accessed using tab navigation, or provide a message when the 'Dashboard' button receives focus: 'To access the other buttons, press the left and right arrow keys.'
 
 ## Critical accessibility issue.
 

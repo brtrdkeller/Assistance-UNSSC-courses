@@ -1,4 +1,6 @@
 
+$link-color: $blue-000;
+
 h2,
 .text-beta,
 #toctitle {
@@ -12,7 +14,11 @@ h3 {
 h4 {
   font-weight: 400;
   text-transform: uppercase;
-  letter-spacing: 0.1em;
+  margin-bottom: 0.5em;
 
   @include fs-5;
+}
+
+a {
+  color: $blue-000 !important;
 }

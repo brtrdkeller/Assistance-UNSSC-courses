@@ -37,14 +37,16 @@ Password forgotten (Form)
 {: .result }  
 > I entered the username and pressed lost password, I got an option to get password on my mail id, but it did not get processed.
 >
-> The following error was given:Error sending password change confirmation emailerror/moodle/cannotmailconfirmJump to:navigation, searchThis page elaborates the error "Error sending password change confirmation email"This error is shown when the server fails to send the email to the requested email id containing details about how to reset the password.
-> This is most likely a server issue.If you are a user• Inform your administrator immediately.
+> The following error was `given:Error sending password change confirmation emailerror/moodle/cannotmailconfirmJump to:navigation, searchThis page elaborates the error "Error sending password change confirmation email "This error is shown when the server fails to send the email to the requested email id containing details about how to reset the password`.
+> This is most likely a server issue.
+> If you are a user
+> - Inform your administrator immediately.
 >
 > There is nothing you can do to fix this issue. If you are an Administrator
 > - Please Check that SMTP server is correctly set.
 > - Ensure that SMTP server is able to send emails.
 
-##### Note :
+{: .note }
 Screenshot ‘Forgot password error’ included
 
 ### Courses                                             
@@ -53,7 +55,7 @@ Screenshot ‘Forgot password error’ included
 {: .no_toc }
 
 {: .description }  
-Dashboard or My Learning (Both are present only on this test platform)                                                                                                             
+Dashboard or My Learning (Both are present only on this test platform)
 
 {: .result }  
 Able to navigate to Dashboard and My Learning tabs.
@@ -62,7 +64,7 @@ Able to navigate to Dashboard and My Learning tabs.
 {: .no_toc }
 
 {: .description }  
-Course Catalogue (Landing page of a search) - Check different views- grid, list and carousel.                                                                                      
+Course Catalogue (Landing page of a search) - Check different views- grid, list and carousel.
 
 {: .result }  
 Able to view and navigate course catalogue and different views. Grid, list, carousel.
@@ -71,7 +73,7 @@ Able to view and navigate course catalogue and different views. Grid, list, caro
 {: .no_toc }
 
 {: .description }  
-Course Unit (Called “Best Value Unit”)                                                                                                                                             
+Course Unit (Called “Best Value Unit”)
 
 {: .result }  
 Found course called Best Value for money.
@@ -82,7 +84,7 @@ Found course called Best Value for money.
 {: .no_toc }
 
 {: .description }  
-Add/remove courses                                                                                                                                                                 
+Add/remove courses
 
 {: .result }  
 > Add Course is available from the Courses page.
@@ -105,7 +107,7 @@ Add/remove courses
 {: .no_toc }
 
 {: .description }  
-My profile 
+My profile
 
 {: .result }  
 Tabbing on Dashboard page reaches My account tab.After the search button, the next tab is read out as ‘toggle messaging drawer graphic link’Account has Profile, Calendar, Private Files, Reports, Preferences, Log Out.
@@ -188,7 +190,7 @@ I should have time next month, my manager told me to take advantage of this time
 #### I want to check my calendar 
 
 {: .description }  
-I subscribe to some courses, I have to plan my week.                                                                                                                               
+I subscribe to some courses, I have to plan my week.
 
 {: .result }  
 It is not clear if subscribing to courses is different from enrolling in them.Able to select a course and schedule an event for a specific date and time.
@@ -204,22 +206,26 @@ Yes, I am able to navigate to the course and continue from where I left off
 #### I want to contact the site support 
 
 {: .description }  
-I’m blocked in the website. I have to contact the support team.                                                                                                                    
+I’m blocked in the website. I have to contact the support team.
 
 {: .result }  
 > The contact site support link is very difficult to find using a screen reader. 
+> 
 > It currently pops up when tabbing to the ‘Show footer’ link and clicking on. This needs to be changed to have a separate link saying ‘Contact Site Support’When I tried to send an email to site support, the email could not be sent.
 
-##### Note
+{: .note }
 See site support screenshot               
 
 #### Create and Amend learning plan
 
 {: .description }  
-Create and amend my learning plan with courses starting in different dates in October and one which is half done.Reach out for help to solve issues.                               
+Create and amend my learning plan with courses starting in different dates in October and one which is half done.Reach out for help to solve issues.
 
 {: .result }  
-> Not clear how to create a learning plan – was not able to do this.When viewing learning plan from the dashboard, am not able to consistently remove courses.Under my learning plan- one day I get remove course from learning plan as a link which works, and one day > I just get the message remove from plan, but it is neither a link, nor a button and doesn’t work for a screen reader.
+> Not clear how to create a learning plan – was not able to do this.When viewing learning plan from the dashboard, am not able to consistently remove courses.Under my learning plan- one day I get remove course from learning plan as a link which works, and one day 
+>
+> I just get the message remove from plan, but it is neither a link, nor a button and doesn’t work for a screen reader.
+>
 > Remove from plan is not intuitive as the user needs to hover over the bookmark icon to realise that it is the icon for remove from plan, which only works when the mouse is clicked.                            
 
 #### Receiving a certificate:
@@ -227,9 +233,8 @@ Create and amend my learning plan with courses starting in different dates in Oc
 {: .description }  
 In the Ethics and Integrity course, under LESSON 1, I have created a link to a certificate that should automatically send a certificate to your Profile page once you click on it. 
 
-{: .result }  
+{: .result }
 I was able to receive a certificate successfully
-
 
 #### Activity bookmarks/stars
 
@@ -241,8 +246,17 @@ I was able to bookmark an activity successfully
 
 ## Overall comments
 
-- Menu and submenu items could have clearer descriptions e.g. ‘Clickable user menu’ to get to the profile, ‘Toggle drawer options’, ‘Show Footer’ all did not indicate underlying content
-- Make the placement and functionality of content predictable and consistent – for example Adding and Removing a course from a plan should be similar in the way the functionality is accessed
-- Buttons and Links should all be accessible via keyboard
-- The homepage could benefit from providing an option to select user accessibility preferences such as high contrast, screen reader view etc., description of images such as web page logo and a clearer separation of foreground from background.
-- The learning plan is very confusing. When clicking on Learning plans from the Profile page I get shown the learning plans list page which saus no learning plans have been created yet. It is not clear how or where to create one or what happens to all the courses I have enrolled in, as they don’t appear to get added to the learning plan.
+{: .highlight }
+Menu and submenu items could have clearer descriptions e.g. ‘Clickable user menu’ to get to the profile, ‘Toggle drawer options’, ‘Show Footer’ all did not indicate underlying content
+
+{: .highlight }
+Make the placement and functionality of content predictable and consistent – for example Adding and Removing a course from a plan should be similar in the way the functionality is accessed.
+
+{: .highlight }
+Buttons and Links should all be accessible via keyboard.
+
+{: .highlight }
+The homepage could benefit from providing an option to select user accessibility preferences such as high contrast, screen reader view etc., description of images such as web page logo and a clearer separation of foreground from background.
+
+{: .highlight }
+The learning plan is very confusing. When clicking on Learning plans from the Profile page I get shown the learning plans list page which saus no learning plans have been created yet. It is not clear how or where to create one or what happens to all the courses I have enrolled in, as they don’t appear to get added to the learning plan.
