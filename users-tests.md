@@ -36,11 +36,13 @@ Password forgotten (Form)
 
 {: .result }  
 > I entered the username and pressed lost password, I got an option to get password on my mail id, but it did not get processed.
+>
 > The following error was given:Error sending password change confirmation emailerror/moodle/cannotmailconfirmJump to:navigation, searchThis page elaborates the error "Error sending password change confirmation email"This error is shown when the server fails to send the email to the requested email id containing details about how to reset the password.
 > This is most likely a server issue.If you are a user• Inform your administrator immediately.
 >
-> There is nothing you can do to fix this issue. If you are an Administrator• Please Check that SMTP server is correctly set.
-> - Ensure that SMTP server is able to send emails.                                                                                            
+> There is nothing you can do to fix this issue. If you are an Administrator
+> - Please Check that SMTP server is correctly set.
+> - Ensure that SMTP server is able to send emails.
 
 ##### Note :
 Screenshot ‘Forgot password error’ included
@@ -83,12 +85,19 @@ Found course called Best Value for money.
 Add/remove courses                                                                                                                                                                 
 
 {: .result }  
-> Add Course is available from the Courses page. 
-> I was able to add a course though there is no audio confirmation when a course is added. 
+> Add Course is available from the Courses page.
+>
+> I was able to add a course though there is no audio confirmation when a course is added.
+>
 > Remove Course does not work consistently.
+>
 > Tabbing through the course information does not go to the Remove course from plan link, though this can be accessed via a mouse and there is a visual bookmark indicator.
+>
 > There is no audio confirmation that Course has been deleted-The bookmark icon changes visually, but there is no audio feedback.
-> We need to go back to Course page to remove Course and check if Course has been removed Inconsistent availability of Remove option – On repeated use, sometimes the remove option doesn’t appear either as a button or link and does not work on the dashboard and I had to go to the add courses page and remove the files, another day it appears as a link and works. 
+>
+> We need to go back to Course page to remove Course and check if Course has been removed Inconsistent availability of Remove option
+>
+> On repeated use, sometimes the remove option doesn’t appear either as a button or link and does not work on the dashboard and I had to go to the add courses page and remove the files, another day it appears as a link and works. 
 
 ### My Account                                          
 
@@ -162,8 +171,10 @@ I’m not a UN employee, I’m looking Free course.
 
 {: .result }  
 > When navigating to the Filters section, I can navigate through the themes using the Tab key, but after the last option on the Themes section (Singing and playing), pressing tab goes directly to ‘Clear all filters’ instead of Type as I would expect.
+>
 > When someone told me that ‘Type’ occurs after Singing and Playing, then I was able to get to Type by pressing the Down arrow key but I would have missed this if I had not been told there was a category to expand. Even after navigating to type, there is no audio confirmation that category has been expanded, which could result in my missing this entirely.
-> There are no audio cues of any operation being carried out at this point.                                                                                                                                
+>
+> There are no audio cues of any operation being carried out at this point.
 
 #### I want to bookmark a course
 
