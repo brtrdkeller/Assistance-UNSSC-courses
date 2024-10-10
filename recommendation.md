@@ -109,29 +109,18 @@ Text should better describe the purpose. "Change site" doesn't describe the acti
 {: .recommendation }
 The link text should be "Change e-learning website" or "Find another e-learning website"
 
-### Looking for a different Site Dialog box
+### Looking for a different Site - Dialog box
  
 User can select a button before validated the redirection in the dialog box. There is any vocal indication that the button is selected or not selected. 
 
 {: .recommendation }
 Item should be selectable with a vocal feedback.
 
-## Main logo
+### Main logo
 
 The <alt> attribute value is "The blue line", whereas the text displayed in the logo is "United System Staff College".
 
-## Moodle Privacy Policy page
-
-**url:** <https://playground.unssc.org/admin/tool/policy/view.php?versionid=3&returnurl=https%3A%2F%2Fplayground.unssc.org%2Fadmin%2Ftool%2Fpolicy%2Findex.php>
-
-### Validation
-
-Any link in the header is functional, user is blocked if policies are not validated. Validation `<button>` are at the bottom of the page. A user may not understand he has to go at the bottom of the page validating Policies.
-
-{: .recommendation }
-One option is to put buttons could be on the top. An other option is to renamed the page. Ex. "Validate the Moodle Privacy Policy".
-
-## On all pages
+## On all "connected" pages
 
 ### Main banner
 
@@ -146,6 +135,19 @@ When navigating on the interface, any Landmark presents a label. Landmark should
 
 {: .recommendation }
 Add `aria-label` on landmark. Ex. `<header aria-label='Main'>`.
+
+
+
+## Moodle Privacy Policy page
+
+**url:** <https://playground.unssc.org/admin/tool/policy/view.php?versionid=3&returnurl=https%3A%2F%2Fplayground.unssc.org%2Fadmin%2Ftool%2Fpolicy%2Findex.php>
+
+### Validation
+
+Any link in the header is functional, user is blocked if policies are not validated. Validation `<button>` are at the bottom of the page. A user may not understand he has to go at the bottom of the page validating Policies.
+
+{: .recommendation }
+One option is to put buttons could be on the top. An other option is to renamed the page. Ex. "Validate the Moodle Privacy Policy".
 
 ## Dashboard
 
@@ -239,7 +241,8 @@ All elements should be focusable using the keyboard. The Bookmark button is not 
 
 When the "Show more items" Button is clicked, the focused is lost. 
 
-Recommendation: Focus should be on the first new displayed item.
+{: .recommendation }
+Focus should be on the first new displayed item.
 
 ## Ethics and Integrity in Procurement
 
@@ -253,7 +256,9 @@ The navigation in the index area can be improved. When one of the Index item is 
 
 ### "Mark as done" button and Bookmark button
 
-Any action button indicate a feedback after being triggered. 
+Any action button indicate a feedback after being triggered.
+
+The status of the buttons changes but because the screen reader focus moves to top of page on pressing Spacebar or Enter key, the user is not getting confirmation of the action. The improvement required is that the screen reader focus should remain on the bookmark or done button when it is activated.
 
 {: .recommendation }
 Creating an `alert` zone when a button is triggered. The action should be validated (in a dialog box) in the best case.
