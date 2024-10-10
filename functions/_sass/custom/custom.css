@@ -1,0 +1,18 @@
+
+h2,
+.text-beta,
+#toctitle {
+  @include fs-7;
+}
+
+h3 {
+  @include fs-6;
+}
+
+h4 {
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+
+  @include fs-5;
+}
