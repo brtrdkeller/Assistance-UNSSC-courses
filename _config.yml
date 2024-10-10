@@ -2,8 +2,10 @@ title: ITA UNSSC
 description: Website to follow the UNSSC digital accessibility evaluation. You'll find all the documents listing users and technical issues.
 
 callouts:
-  highlight:
+  recommendation:
     title: Recommendation
+    color: yellow
+  highlight:
     color: yellow
   important:
     title: Important

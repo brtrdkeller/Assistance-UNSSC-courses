@@ -9,18 +9,17 @@ title: User Test Report
 
 ## Actions tests
 
-### Login                                               
+### Home                                        
 
 #### Action 1
 {: .no_toc }
 
-**Description**  
-Home Page (Page which is redirecting to different courses platform, but not functional)
-
 **Result**  
 Home Page This page is accessible. I am able to navigate with a keyboard. It has minimal information.
 
-#### Action 2
+### Login
+
+#### Action 1
 {: .no_toc }
 
 **Description**  
@@ -29,7 +28,7 @@ Login (Login Form)
 **Result**    
 I was able to input the username and password without difficulty. Once I logged in, I got a message asking me to save the username and password  but this message disappeared before I could act on it.
 
-#### Action 3
+#### Action 2
 {: .no_toc }
 
 **Description**  
