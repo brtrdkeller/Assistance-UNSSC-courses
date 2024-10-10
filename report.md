@@ -45,6 +45,7 @@ title: Accessibility Report
  - **Missing alt text** - The card behind The Blue line link, OCHA learn link and The Blue line link, Provide appropriate alt text for the images or mark them as decorative using alt="".
 
  - **Color contrast issue** - Choose your site heading does not meet the contrast ratio guideline of 4.5:1.
+ - **Unlabeled Form Fields** - It should be made more explanatory and prominent to ensure users understand its purpose clearly, such as labeling it 'Close button.'
 
 ### Forgot Password Page 
 
@@ -59,6 +60,9 @@ title: Accessibility Report
 **url:** [https://playground.unssc.org/local/unssc\_coursecatalogue/?catalog\_category=0&page=1&perpage=9&lpfilters=](https://playground.unssc.org/local/unssc_coursecatalogue/?catalog_category=0&page=1&perpage=9&lpfilters=)
 
  - **Color contrast issue** - search button,  Grid view button, add course link, view all link, lesson 2,3,and 4 and email address at the bottom of the page does not meet the contrast ratio guideline of 4.5:1.
+ - **Main Navigation (Tab index – 1 issue)** - The links are accessible using the right and left arrow keys. This suggestion was noted in both the Word report and the Excel report. For better navigation, all the main navigation items/tabs can be brought in tab order.
+- **Element does not receive focus** - All elements should be focusable using the keyboard. The Bookmark button is not in tab order and the course progress info icon, such as 6% complete or 100% complete is not properly readable with screen reader.
+- **Unlabeled Form Fields** – The combo box next to the Filters button doesn't have an accessible name.
 
 ### Course Catalogue 
 
@@ -133,6 +137,7 @@ title: Accessibility Report
 **url:** <https://playground.unssc.org/user/profile.php#sb-5>
 
  - **Heading Hierarchy -** The heading hierarchy is broken; the first heading on the page is marked as H6, and H1 to H4 have not been used at all on the page.
+ - **“Mark as done” button and Bookmark button** - The status of the button’s changes but because the screen reader focus moves to top of page on pressing Spacebar or Enter key, the user is not getting confirmation of the action. The improvement required is that the screen reader focus should remain on the bookmark or done button when it is activated.
 
 ## Minor Accessibility Issue.
 
@@ -141,3 +146,9 @@ title: Accessibility Report
 **url:** [https://playground.unssc.org/local/unssc\_coursecatalogue/?catalog\_category=0&page=1&perpage=9&lpfilters=](https://playground.unssc.org/local/unssc_coursecatalogue/?catalog_category=0&page=1&perpage=9&lpfilters=)
 
  - **Page Title -** The page does not have an appropriate title; it appears to be the same as the link of the page.
+
+### Home Page
+
+**url:** [https://playground.unssc.org/](https://playground.unssc.org/)
+
+- **Policies panel - modal content** - The box appears as a pop-up window, and all the links are accessible using Tab navigation, as well as the up and down arrow keys. They can also be activated with the spacebar. The section/topic can be given a heading style, although not critical

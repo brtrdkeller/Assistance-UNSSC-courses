@@ -17,8 +17,10 @@ nav_order: 99
 
 ### Skip links
  
-The skiplink is referencing "#maincontent". But the "id" "maincontent" is apply is an empty `<div>` which is called `"user-notification"` in "page-outer". So users are going to an empty area.
+The skip link is referencing "#maincontent". But the "id" "maincontent" is apply is an empty `<div>` which is called `"user-notification"` in "page-outer". So users are going to an empty area.
 The main content has been inserted in a `<section role="complementary">` region called `"block_unssctenantselector"`.
+
+The focus on activating the skip link is jumping to the end of page. Correction is required here, the focus should be made to land on the main heading or main content which here seems to be “The Blue line”.
 
 {: .recommendation }
 The `id="maincontent` should be moved.
@@ -70,6 +72,8 @@ The `<section>` has an attribute `aria-labelledby="instance-1194-header"`. It's 
 ### Policies panel - modal content
 
 This panel contains some links which are opening modal box. 
+
+The box appears as a pop-up window, and all the links are accessible using Tab navigation, as well as the up and down arrow keys. They can also be activated with the spacebar. The section/topic can be given a heading style, although not critical.
 
 {: .recommendation }
 The modal's content is not well formated. Ex. Headings are missing.
@@ -127,7 +131,7 @@ Any link in the header is functional, user is blocked if policies are not valida
 {: .recommendation }
 One option is to put buttons could be on the top. An other option is to renamed the page. Ex. "Validate the Moodle Privacy Policy".
 
-## Main Inside Template Recommendation
+## On all pages
 
 ### Main banner
 
@@ -158,6 +162,8 @@ Modify the z-index of `.navbar .navbar-top` or `.sr-only-focusable:active, .sr-o
 
 Skip links ("Skip to the main content") redirects the "Activity Bookmarks" block. All the blocks before are skipped. 
 
+The purpose of the skip link is to bypass a block of content, and where it lands should be the developer's choice. Currently, it lands on the 'Activity Bookmarks' heading, it can be changed to the 'Learning Plan' block.
+
 ### Home link Logo
  
 The "home" link redirect to the main page (Dashboard). It should be explicit.
@@ -168,6 +174,8 @@ Rename the image `alt` with a better text (Ex. Home + Name of the website). Or i
 ### Main Navigation
 
 Links have a `tabindex=-1` attribute, except "Dashboard". All the other links, except "Dashboard", are ignored by a keyboard navigation.
+
+The links are accessible using the right and left arrow keys. All the main navigation items/tabs can be brought in tab order.
 
 ### Learning Plan Block - Filters
 
@@ -222,7 +230,10 @@ An `aria-live` region should be add in the code for preventing users that conten
 
 ### Learning Plan Block - Bookmark Button
 
-The "bookmark" button is not focusable. 
+The "bookmark" button is not focusable.
+
+All elements should be focusable using the keyboard. The Bookmark button is not in tab order and the course progress info icon, such as 6% complete or 100% complete is not properly readable with screen reader.
+
 
 ### Previously accessed block - Show more items Button
 
@@ -237,6 +248,8 @@ Recommendation: Focus should be on the first new displayed item.
 ### Lesson block
 
 NVDA (Windows/Firefox) don't read the text of the button for expanding the lesson content. `aria-label` is not read. "Narrator" reads text but don't inform anything about the state of the expandable zone.
+
+The navigation in the index area can be improved. When one of the Index item is moved to using Screen Reader, the focus jumps to it main content whereas the user should be able to navigate to other Index items with Tab key and press Enter to activate it. The expand/collapse can not be done currently because of this focus jumping issue.
 
 ### "Mark as done" button and Bookmark button
 

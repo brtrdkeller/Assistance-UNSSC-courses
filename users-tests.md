@@ -38,7 +38,9 @@ Password forgotten (Form)
 > I entered the username and pressed lost password, I got an option to get password on my mail id, but it did not get processed.
 >
 > The following error was `given:Error sending password change confirmation emailerror/moodle/cannotmailconfirmJump to:navigation, searchThis page elaborates the error "Error sending password change confirmation email "This error is shown when the server fails to send the email to the requested email id containing details about how to reset the password`.
+> 
 > This is most likely a server issue.
+> 
 > If you are a user
 > - Inform your administrator immediately.
 >
@@ -47,7 +49,7 @@ Password forgotten (Form)
 > - Ensure that SMTP server is able to send emails.
 
 {: .note }
-Screenshot ‘Forgot password error’ included
+Could be a behaviour of the development website.
 
 ### Courses                                             
 
