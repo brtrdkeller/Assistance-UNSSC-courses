@@ -41,7 +41,7 @@ Be careful, we have only one authentification code. Maybe some parameters can be
     1. Notification Preference
     2. Change Password
 
-Open the image of the [UNSSC tree structure to test graph](UNSSC.png)
+Open the image of the [UNSSC tree structure to test graph](asssets/UNSSC.png)
 
 ## Basic idea for User tests
 
