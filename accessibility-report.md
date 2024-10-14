@@ -44,7 +44,6 @@ Download the [assets/UNSSC-Playground-Grid.xlsx](Accessiblity Report Grid - xls)
 **url:** [https://playground.unssc.org/login/index.php](https://playground.unssc.org/login/index.php)
 
 #### Color contrast issue
-
 {: .d-inline-block .no_toc }
 
 WCAG test - 1.4.3
@@ -53,7 +52,6 @@ WCAG test - 1.4.3
 The login button, 'Forgot Password? Link', and 'cookie notice link' do not meet the contrast ratio guideline of 4.5:1.
 
 #### Error Identification
-
 {: .d-inline-block .no_toc }
 
 WCAG test - 3.3.1
@@ -66,7 +64,6 @@ The error message is generic and does not provide specific details about the err
 **url:** <https://playground.unssc.org/](https://playground.unssc.org/)>
 
 #### Missing alt text
-
 {: .d-inline-block .no_toc }
 
 WCAG test - 1.1.1
@@ -119,7 +116,6 @@ WCAG test - 1.4.3
 Search button,  Grid view button, add course link, view all link, lesson 2,3,and 4 and email address at the bottom of the page does not meet the contrast ratio guideline of 4.5:1.
 
 #### Main Navigation (Tab index – 1 issue)
-
 {: .d-inline-block .no_toc }
 
 WCAG test - 2.4.1
@@ -128,7 +124,6 @@ WCAG test - 2.4.1
 The links are accessible using the right and left arrow keys. This suggestion was noted in both the Word report and the Excel report. For better navigation, all the main navigation items/tabs can be brought in tab order.
 
 #### Element does not receive focus
-
 {: .d-inline-block .no_toc }
 
 WCAG test - 2.4.1
@@ -157,7 +152,6 @@ WCAG test - 1.3.5
 The combo box next to the grid view button and filter expand button are unlabeled
 
 #### Color contrast issue
-
 {: .d-inline-block .no_toc }
 
 WCAG test - 1.4.3
@@ -182,7 +176,6 @@ The search button and the course name link text do not meet the guideline criter
 **url:** <https://playground.unssc.org/course/view.php?id=105>
 
 #### Missing alt text
-
 {: .d-inline-block .no_toc }
 
 WCAG test - 1.1.1
@@ -191,7 +184,6 @@ WCAG test - 1.1.1
 The image under 'We want to hear from you!' does not have alt text.
 
 #### Color contrast issue
-
 {: .d-inline-block .no_toc }
 
 WCAG test - 1.4.3
