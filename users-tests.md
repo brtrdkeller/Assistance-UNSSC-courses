@@ -2,6 +2,10 @@
 title: User Test Report
 ---
 
+**User Test Report** is a document that summarizes the difficulties encountered by people with disabilities. 
+
+Its testimony will help confirm errors identified during an audit, as well as pointing out problems that do not correspond to WCAG tests.
+
 ## Context
 
 **Test completion date:** 27-Sep-2024  
