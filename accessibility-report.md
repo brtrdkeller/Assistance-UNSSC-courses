@@ -14,7 +14,7 @@ Accessibility report is a document containing the elements of the `xls` grid, bu
 
 ## Accessiblity Grid
 
-Download the [assets/UNSSC-Playground-Grid.xlsx](Accessiblity Report Grid - xls)
+Download the [Accessibility Report Grid - xls](assets/UNSSC-Playground-Grid.xlsx)
 
 ## Context
 
@@ -39,26 +39,6 @@ Download the [assets/UNSSC-Playground-Grid.xlsx](Accessiblity Report Grid - xls)
 
 ## Critical accessibility issue.
 
-### Login Page 
-
-**url:** [https://playground.unssc.org/login/index.php](https://playground.unssc.org/login/index.php)
-
-#### Color contrast issue
-{: .d-inline-block .no_toc }
-
-WCAG test - 1.4.3
-{: .label .label-green }
-
-The login button, 'Forgot Password? Link', and 'cookie notice link' do not meet the contrast ratio guideline of 4.5:1.
-
-#### Error Identification
-{: .d-inline-block .no_toc }
-
-WCAG test - 3.3.1
-{: .label .label-green }
-
-The error message is generic and does not provide specific details about the error. More descriptive error messages, such as 'Invalid username' or 'Invalid password,' would help users better understand the issue.
-
 ### Home Page 
 
 **url:** <https://playground.unssc.org/](https://playground.unssc.org/)>
@@ -80,6 +60,10 @@ WCAG test - 1.4.3
 Choose your site heading does not meet the contrast ratio guideline of 4.5:1.
 
 #### Unlabeled Form Fields
+{: .d-inline-block .no_toc }
+
+WCAG test - 1.3.5
+{: .label .label-green }
 
 It should be made more explanatory and prominent to ensure users understand its purpose clearly, such as labeling it 'Close button.'
 
@@ -102,6 +86,26 @@ WCAG test - 3.3.1
 {: .label .label-green }
 
 Only one error message appears on the screen: 'Enter either username or email address,' even when the user inputs an incorrect email or username, The error message should be specific about the error to help users understand the exact issue.
+
+### Login Page 
+
+**url:** [https://playground.unssc.org/login/index.php](https://playground.unssc.org/login/index.php)
+
+#### Color contrast issue
+{: .d-inline-block .no_toc }
+
+WCAG test - 1.4.3
+{: .label .label-green }
+
+The login button, 'Forgot Password? Link', and 'cookie notice link' do not meet the contrast ratio guideline of 4.5:1.
+
+#### Error Identification
+{: .d-inline-block .no_toc }
+
+WCAG test - 3.3.1
+{: .label .label-green }
+
+The error message is generic and does not provide specific details about the error. More descriptive error messages, such as 'Invalid username' or 'Invalid password,' would help users better understand the issue.
 
 ### Dashboard 
 
@@ -277,9 +281,9 @@ WCAG test - 1.4.10
  
 After zooming to 300%, the page starts to flow in two dimensions.
 
-#### Best Value for Money
+### Best Value for Money
 
-<https://playground.unssc.org/course/view.php?id=105>
+**url:** <https://playground.unssc.org/course/view.php?id=105>
 
 #### Heading Hierarchy
 {: .d-inline-block .no_toc }

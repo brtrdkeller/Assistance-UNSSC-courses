@@ -1,7 +1,16 @@
 ---
-title: Technicals Recommendations
+title: Recommendations Report
 nav_order: 99
 ---
+
+**Recommentions** est un document destiné aux équipes opérationnelles. Celles qui vont avoir à charge de l'évolution d'un site web.
+
+Les recommandations ont plutôt une approche qualité du code afin
+
+d'améliorer la base de code qui permettra de rendre la navigation uniforme sur l'ensemble du site.
+
+
+Les recommandations se rapprochent de ce qui pourrait figure d'un bug tracker.
 
 ## Table of contents
 {: .no_toc .text-delta }
@@ -43,7 +52,7 @@ There isn't any `<h1>` in the page. Only a `<h4>` heading is present. Headings a
 {: .recommendation }
 The heading hierachy has to be changed. We could have 2 titles `<h1>` and `<h2>`. Ex. "Welcome in a our learning home page" and "Choose a learning website"
 
-## Main region
+### Main region
 
 The `<section>` has an attribute `aria-labelledby="instance-1194-header"`. It's calling the title inside the `<h5>` tag. Is it the be expected behaviour ?.
 
@@ -135,19 +144,6 @@ When navigating on the interface, any Landmark presents a label. Landmark should
 
 {: .recommendation }
 Add `aria-label` on landmark. Ex. `<header aria-label='Main'>`.
-
-
-
-## Moodle Privacy Policy page
-
-**url:** <https://playground.unssc.org/admin/tool/policy/view.php?versionid=3&returnurl=https%3A%2F%2Fplayground.unssc.org%2Fadmin%2Ftool%2Fpolicy%2Findex.php>
-
-### Validation
-
-Any link in the header is functional, user is blocked if policies are not validated. Validation `<button>` are at the bottom of the page. A user may not understand he has to go at the bottom of the page validating Policies.
-
-{: .recommendation }
-One option is to put buttons could be on the top. An other option is to renamed the page. Ex. "Validate the Moodle Privacy Policy".
 
 ## Dashboard
 
@@ -262,3 +258,15 @@ The status of the buttons changes but because the screen reader focus moves to t
 
 {: .recommendation }
 Creating an `alert` zone when a button is triggered. The action should be validated (in a dialog box) in the best case.
+
+## Moodle Privacy Policy page
+
+**url:** <https://playground.unssc.org/admin/tool/policy/view.php?versionid=3&returnurl=https%3A%2F%2Fplayground.unssc.org%2Fadmin%2Ftool%2Fpolicy%2Findex.php>
+
+### Validation
+
+Any link in the header is functional, user is blocked if policies are not validated. Validation `<button>` are at the bottom of the page. A user may not understand he has to go at the bottom of the page validating Policies.
+
+{: .recommendation }
+One option is to put buttons could be on the top. An other option is to renamed the page. Ex. "Validate the Moodle Privacy Policy".
+

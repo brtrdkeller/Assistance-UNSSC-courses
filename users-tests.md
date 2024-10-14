@@ -27,7 +27,7 @@ Home Page This page is accessible. I am able to navigate with a keyboard. It h
 {: .no_toc }
 
 {: .description }
-Login (Login Form)
+Access Login page and test Login Form
 
 {: .result }    
 I was able to input the username and password without difficulty. Once I logged in, I got a message asking me to save the username and password  but this message disappeared before I could act on it.
@@ -36,21 +36,21 @@ I was able to input the username and password without difficulty. Once I logged 
 {: .no_toc }
 
 {: .description }  
-Password forgotten (Form)
+Test Password forgotten (Form)
 
 {: .result }  
 > I entered the username and pressed lost password, I got an option to get password on my mail id, but it did not get processed.
 >
-> The following error was `given:Error sending password change confirmation emailerror/moodle/cannotmailconfirmJump to:navigation, searchThis page elaborates the error "Error sending password change confirmation email "This error is shown when the server fails to send the email to the requested email id containing details about how to reset the password`.
-> 
-> This is most likely a server issue.
-> 
-> If you are a user
-> - Inform your administrator immediately.
->
-> There is nothing you can do to fix this issue. If you are an Administrator
-> - Please Check that SMTP server is correctly set.
-> - Ensure that SMTP server is able to send emails.
+>> The following error was `given:Error sending password change confirmation emailerror/moodle/cannotmailconfirmJump to:navigation, searchThis page elaborates the error "Error sending password change confirmation email "This error is shown when the server fails to send the email to the requested email id containing details about how to reset the password`.
+>> 
+>> This is most likely a server issue.
+>> 
+>> If you are a user
+>> - Inform your administrator immediately.
+>>
+>> There is nothing you can do to fix this issue. If you are an Administrator
+>> - Please Check that SMTP server is correctly set.
+>> - Ensure that SMTP server is able to send emails.
 
 {: .note }
 Could be a behaviour of the development website.
@@ -61,7 +61,7 @@ Could be a behaviour of the development website.
 {: .no_toc }
 
 {: .description }  
-Dashboard or My Learning (Both are present only on this test platform)
+Access Dashboard or My Learning (Both are present only on this test platform)
 
 {: .result }  
 Able to navigate to Dashboard and My Learning tabs.
@@ -70,7 +70,7 @@ Able to navigate to Dashboard and My Learning tabs.
 {: .no_toc }
 
 {: .description }  
-Course Catalogue (Landing page of a search) - Check different views- grid, list and carousel.
+Access Course Catalogue (Landing page of a search) and Check different views/grid, list and carousel.
 
 {: .result }  
 Able to view and navigate course catalogue and different views. Grid, list, carousel.
@@ -79,7 +79,7 @@ Able to view and navigate course catalogue and different views. Grid, list, caro
 {: .no_toc }
 
 {: .description }  
-Course Unit (Called “Best Value Unit”)
+Access a Course Unit (Called “Best Value Unit”)
 
 {: .result }  
 Found course called Best Value for money.
@@ -90,7 +90,7 @@ Found course called Best Value for money.
 {: .no_toc }
 
 {: .description }  
-Add/remove courses
+Add/Remove courses
 
 {: .result }  
 > Add Course is available from the Courses page.
@@ -113,7 +113,7 @@ Add/remove courses
 {: .no_toc }
 
 {: .description }  
-My profile
+Access My profile
 
 {: .result }  
 Tabbing on Dashboard page reaches My account tab.After the search button, the next tab is read out as ‘toggle messaging drawer graphic link’Account has Profile, Calendar, Private Files, Reports, Preferences, Log Out.
@@ -122,7 +122,7 @@ Tabbing on Dashboard page reaches My account tab.After the search button, the ne
 {: .no_toc }
 
 {: .description }  
-Preferences (Only for users test)
+Access Preferences page (Only for users test)
 
 {: .result }  
 Edit preferences- Added description easily
@@ -131,7 +131,7 @@ Edit preferences- Added description easily
 {: .no_toc }
 
 {: .description }  
-Notification Preference / Notifications are disturbing me. I would like to stop them.
+Access Notification Preference / Notifications are disturbing me. I would like to stop them.
 
 {: .result }  
 Notification preferences- only check box to disable notifications is functional, which I can navigate with the tab key. The options under that can be accessed with the arrow keys, although they are not functional. 
@@ -167,7 +167,7 @@ I was able to view the list of completed courses.
 #### I’m looking for a course with “Money” in the title  
 
 {: .description }  
-Someone told me about a course I have to follow. The is the word “Money” in the title.
+Someone told me about a course I have to follow, with the word “Money” in title.
 
 {: .result }  
 I was able to find a course with Money in the title
@@ -175,7 +175,7 @@ I was able to find a course with Money in the title
 #### I’m looking for a course with a specific theme
 
 {: .description }  
-I’m not a UN employee, I’m looking Free course.
+I’m not a UN employee, I’m looking for a Free course.
 
 {: .result }  
 > When navigating to the Filters section, I can navigate through the themes using the Tab key, but after the last option on the Themes section (Singing and playing), pressing tab goes directly to ‘Clear all filters’ instead of Type as I would expect.
@@ -187,7 +187,7 @@ I’m not a UN employee, I’m looking Free course.
 #### I want to bookmark a course
 
 {: .description }  
-I should have time next month, my manager told me to take advantage of this time for following some courses. I would like to bookmark some of them.                                
+I should have time next month, my manager told me to take advantage of this time for following some courses. I would like to bookmark some of them.                            
 
 {: .result }  
 > It is not clear if course bookmarking is different from adding a course to the learning plan.
@@ -196,7 +196,7 @@ I should have time next month, my manager told me to take advantage of this time
 #### I want to check my calendar 
 
 {: .description }  
-I subscribe to some courses, I have to plan my week.
+I subscribe some courses, I have to plan my week.
 
 {: .result }  
 It is not clear if subscribing to courses is different from enrolling in them.Able to select a course and schedule an event for a specific date and time.
@@ -237,7 +237,7 @@ Create and amend my learning plan with courses starting in different dates in Oc
 #### Receiving a certificate:
 
 {: .description }  
-In the Ethics and Integrity course, under LESSON 1, I have created a link to a certificate that should automatically send a certificate to your Profile page once you click on it. 
+Access a certificate. 
 
 {: .result }
 I was able to receive a certificate successfully
@@ -245,7 +245,7 @@ I was able to receive a certificate successfully
 #### Activity bookmarks/stars
 
 {: .description }  
-You can bookmark and activity by clicking on the star icon beside it.
+Bookmarking an activity.
 
 {: .result }  
 I was able to bookmark an activity successfully
