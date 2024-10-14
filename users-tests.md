@@ -82,7 +82,7 @@ Able to view and navigate course catalogue and different views. Grid, list, caro
 Access a Course Unit (Called “Best Value Unit”)
 
 {: .result }  
-Found course called Best Value for money.
+Found course called "Best Value for money".
 
 ### Dashboard                                           
 
@@ -101,9 +101,11 @@ Add/Remove courses
 >
 > Tabbing through the course information does not go to the Remove course from plan link, though this can be accessed via a mouse and there is a visual bookmark indicator.
 >
-> There is no audio confirmation that Course has been deleted-The bookmark icon changes visually, but there is no audio feedback.
+> There is no audio confirmation that Course has been deleted
 >
-> We need to go back to Course page to remove Course and check if Course has been removed Inconsistent availability of Remove option
+> The bookmark icon changes visually, but there is no audio feedback.
+>
+> We need to go back to Course page to remove Course and check if Course has been removed Inconsistent availability of Remove option.
 >
 > On repeated use, sometimes the remove option doesn’t appear either as a button or link and does not work on the dashboard and I had to go to the add courses page and remove the files, another day it appears as a link and works. 
 
@@ -145,15 +147,6 @@ Change Password
 {: .result }  
 Able to change password successfully. Changed to learnerhi123 and back to original one.
 
-#### Action 5
-{: .no_toc }
-
-{: .description }  
-Open the image of the UNSSC tree structure to test graph
-
-{: .result }  
-I can’t figure out where the UNSSC tree structure is.
-
 ## Scenarios
 
 #### “My learning page” - I want to filter my course 
@@ -191,7 +184,7 @@ I should have time next month, my manager told me to take advantage of this time
 
 {: .result }  
 > It is not clear if course bookmarking is different from adding a course to the learning plan.
-> If it is different, I have not been able to figure out how to do it.I am able to bookmark activities and remove bookmarks from activities without any issue.                                   
+> If it is different, I have not been able to figure out how to do it. I am able to bookmark activities and remove bookmarks from activities without any issue.                                   
 
 #### I want to check my calendar 
 
@@ -199,7 +192,7 @@ I should have time next month, my manager told me to take advantage of this time
 I subscribe some courses, I have to plan my week.
 
 {: .result }  
-It is not clear if subscribing to courses is different from enrolling in them.Able to select a course and schedule an event for a specific date and time.
+It is not clear if subscribing to courses is different from enrolling in them. Able to select a course and schedule an event for a specific date and time.
 
 #### I want to continue the course I left
 
@@ -207,7 +200,7 @@ It is not clear if subscribing to courses is different from enrolling in them.Ab
 I think, I left a course in the middle. Can I continue it, exactly where I stopped.
 
 {: .result }  
-Yes, I am able to navigate to the course and continue from where I left off
+Yes, I am able to navigate to the course and continue from where I left off.
 
 #### I want to contact the site support 
 
@@ -217,7 +210,7 @@ I’m blocked in the website. I have to contact the support team.
 {: .result }  
 > The contact site support link is very difficult to find using a screen reader. 
 > 
-> It currently pops up when tabbing to the ‘Show footer’ link and clicking on. This needs to be changed to have a separate link saying ‘Contact Site Support’When I tried to send an email to site support, the email could not be sent.
+> It currently pops up when tabbing to the ‘Show footer’ link and clicking on. This needs to be changed to have a separate link saying ‘Contact Site Support’. When I tried to send an email to site support, the email could not be sent.
 
 {: .note }
 See site support screenshot               
@@ -228,7 +221,7 @@ See site support screenshot
 Create and amend my learning plan with courses starting in different dates in October and one which is half done.Reach out for help to solve issues.
 
 {: .result }  
-> Not clear how to create a learning plan – was not able to do this.When viewing learning plan from the dashboard, am not able to consistently remove courses.Under my learning plan- one day I get remove course from learning plan as a link which works, and one day 
+> Not clear how to create a learning plan – was not able to do this. When viewing learning plan from the dashboard, am not able to consistently remove courses.Under my learning plan- one day I get remove course from learning plan as a link which works, and one day 
 >
 > I just get the message remove from plan, but it is neither a link, nor a button and doesn’t work for a screen reader.
 >
@@ -240,7 +233,7 @@ Create and amend my learning plan with courses starting in different dates in Oc
 Access a certificate. 
 
 {: .result }
-I was able to receive a certificate successfully
+I was able to receive a certificate successfully.
 
 #### Activity bookmarks/stars
 
@@ -248,12 +241,12 @@ I was able to receive a certificate successfully
 Bookmarking an activity.
 
 {: .result }  
-I was able to bookmark an activity successfully
+I was able to bookmark an activity successfully.
 
 ## Overall comments
 
 {: .highlight }
-Menu and submenu items could have clearer descriptions e.g. ‘Clickable user menu’ to get to the profile, ‘Toggle drawer options’, ‘Show Footer’ all did not indicate underlying content
+Menu and submenu items could have clearer descriptions e.g. ‘Clickable user menu’ to get to the profile, ‘Toggle drawer options’, ‘Show Footer’ all did not indicate underlying content.
 
 {: .highlight }
 Make the placement and functionality of content predictable and consistent – for example Adding and Removing a course from a plan should be similar in the way the functionality is accessed.
