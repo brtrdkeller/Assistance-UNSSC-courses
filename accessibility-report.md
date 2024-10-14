@@ -319,18 +319,6 @@ The heading hierarchy is broken; the first heading on the page is marked as `<h6
 
 ## Minor Accessibility Issue.
 
-### Course Catalogue 
-
-**url:** [https://playground.unssc.org/local/unssc\_coursecatalogue/?catalog\_category=0&page=1&perpage=9&lpfilters=](https://playground.unssc.org/local/unssc_coursecatalogue/?catalog_category=0&page=1&perpage=9&lpfilters=)
-
-#### Page Title
-{: .d-inline-block .no_toc }
-
-WCAG test - 2.4.2
-{: .label .label-green }
- 
-The page does not have an appropriate title; it appears to be the same as the link of the page.
-
 ### Home Page
 
 **url:** [https://playground.unssc.org/](https://playground.unssc.org/)
@@ -342,3 +330,15 @@ WCAG test - 1.3.1
 {: .label .label-green }
 
 The box appears as a pop-up window, and all the links are accessible using Tab navigation, as well as the up and down arrow keys. They can also be activated with the spacebar. The section/topic can be given a heading style, although not critical
+
+### Course Catalogue 
+
+**url:** [https://playground.unssc.org/local/unssc\_coursecatalogue/?catalog\_category=0&page=1&perpage=9&lpfilters=](https://playground.unssc.org/local/unssc_coursecatalogue/?catalog_category=0&page=1&perpage=9&lpfilters=)
+
+#### Page Title
+{: .d-inline-block .no_toc }
+
+WCAG test - 2.4.2
+{: .label .label-green }
+ 
+The page does not have an appropriate title; it appears to be the same as the link of the page.
