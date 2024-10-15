@@ -3,14 +3,11 @@ title: Recommendations Report
 nav_order: 6
 ---
 
-**Recommentions** est un document destiné aux équipes opérationnelles. Celles qui vont avoir à charge de l'évolution d'un site web.
+**Recommendations** is a document designed for operational teams. Those in charge of developing a website.
 
-Les recommandations ont plutôt une approche qualité du code afin
+The recommendations take a quality approach to code, with the aim of improve the code base that will make navigation uniform throughout the site.
 
-d'améliorer la base de code qui permettra de rendre la navigation uniforme sur l'ensemble du site.
-
-
-Les recommandations se rapprochent de ce qui pourrait figure d'un bug tracker.
+The recommendations are akin to a bug tracker.
 
 ## Table of contents
 {: .no_toc .text-delta }
