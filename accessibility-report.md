@@ -13,7 +13,7 @@ Accessibility report is a document containing the elements of the `xls` grid, bu
 
 ---
 
-## Accessiblity Grid
+## Download Accessiblity Grid
 
 Download the [Accessibility Report Grid - xls](assets/UNSSC-Playground-Grid.xlsx)
 
@@ -30,7 +30,7 @@ Download the [Accessibility Report Grid - xls](assets/UNSSC-Playground-Grid.xlsx
  - Color Contrast Analyzer (CCA),
  - Manual Testing.
 
-**Environement:** Windows, Firefox
+**Environement:** Windows 10, NVDA 2023.3, Firefox 127
 
 
 {: .note }
@@ -50,7 +50,7 @@ Download the [Accessibility Report Grid - xls](assets/UNSSC-Playground-Grid.xlsx
 WCAG test - 1.1.1
 {: .label .label-green }
 
-The card behind The Blue line link, OCHA learn link and The Blue line link, Provide appropriate `alt` text for the images or mark them as decorative using ``alt=""`.
+The card behind The Blue line link, OCHA learn link and The Blue line link, Provide appropriate `alt` text for the images or mark them as decorative using `alt=""`.
 
 #### Color contrast issue
 {: .d-inline-block .no_toc }
@@ -66,7 +66,7 @@ Choose your site heading does not meet the contrast ratio guideline of 4.5:1.
 WCAG test - 1.3.5
 {: .label .label-green }
 
-It should be made more explanatory and prominent to ensure users understand its purpose clearly, such as labeling it 'Close button.'
+It should be made more explanatory and prominent to ensure users understand its purpose clearly, such as labeling it "Close button."
 
 ### Forgot Password Page 
 
@@ -90,7 +90,7 @@ Search button under Search by username and search by Email, both search buttons 
 WCAG test - 1.4.3
 {: .label .label-green }
 
-The login button, 'Forgot Password? Link', and 'cookie notice link' do not meet the contrast ratio guideline of 4.5:1.
+The login button, "Forgot Password? Link", and 'cookie notice link' do not meet the contrast ratio guideline of 4.5:1.
 
 #### Error Identification
 {: .d-inline-block .no_toc }
@@ -110,7 +110,7 @@ The error message is generic and does not provide specific details about the err
 WCAG test - 1.4.3
 {: .label .label-green }
 
-Search button, Grid view button, add course link, view all link, lesson 2,3,and 4 and email address at the bottom of the page does not meet the contrast ratio guideline of 4.5:1.
+Search button, Grid view button, add course link, view all link, lesson 2, 3, and 4 and email address at the bottom of the page does not meet the contrast ratio guideline of 4.5:1.
 
 #### Main Navigation (Tab index – 1 issue)
 {: .d-inline-block .no_toc }
@@ -146,7 +146,7 @@ The combo box next to the Filters button doesn't have an accessible name.
 WCAG test - 1.3.5
 {: .label .label-green }
  
-The combo box next to the grid view button and filter expand button are unlabeled
+The combo box next to the grid view button and filter expand button are unlabeled.
 
 #### Color contrast issue
 {: .d-inline-block .no_toc }
@@ -178,7 +178,7 @@ The search button and the course name link text do not meet the guideline criter
 WCAG test - 1.1.1
 {: .label .label-green }
 
-The image under 'We want to hear from you!' does not have alt text.
+The image under "We want to hear from you!" does not have alt text.
 
 #### Color contrast issue
 {: .d-inline-block .no_toc }
@@ -240,7 +240,7 @@ Search button, View button under Upcoming events heading, Download the mobile ap
 WCAG test - 1.3.1
 {: .label .label-green }
  
-The 'Choose Your Site' heading is marked as `<h4>`, but since it is the only heading on the page, it should be marked as `<h1>`.
+The "Choose Your Site" heading is marked as `<h4>`, but since it is the only heading on the page, it should be marked as `<h1>`.
 
 #### Bypass block
 {: .d-inline-block .no_toc }
@@ -260,7 +260,7 @@ There is a 'Skip to Main Content' link on the page, but the focus does not shift
 WCAG test - 1.3.1
 {: .label .label-green }
  
-The heading hierarchy is broken, with an H5 appearing immediately after an H1 on the page, Mark the headings in a hierarchical order from ``<h1>` to `<h6>` without skipping levels, ensuring that H1 is only used to convey the meaning or purpose of the page.
+The heading hierarchy is broken, with an H5 appearing immediately after an `<h1>` on the page, Mark the headings in a hierarchical order from `<h1>` to `<h6>` without skipping levels, ensuring that `<h1>` is only used to convey the meaning or purpose of the page.
 
 ### Course Catalogue 
 
