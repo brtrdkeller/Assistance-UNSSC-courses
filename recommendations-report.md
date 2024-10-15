@@ -1,6 +1,6 @@
 ---
 title: Recommendations Report
-nav_order: 99
+nav_order: 6
 ---
 
 **Recommentions** est un document destiné aux équipes opérationnelles. Celles qui vont avoir à charge de l'évolution d'un site web.
