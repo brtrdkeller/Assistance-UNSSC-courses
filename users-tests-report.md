@@ -1,5 +1,6 @@
 ---
 title: User Test Report
+nav_order: 2
 ---
 
 **User Test Report** is a document that summarizes the difficulties encountered by people with disabilities. 

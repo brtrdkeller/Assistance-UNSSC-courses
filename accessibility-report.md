@@ -1,5 +1,6 @@
 ---
 title: Accessibility Report
+nav_order: 1
 ---
 
 Accessibility report is a document containing the elements of the `xls` grid, but in linear form. It's a summary, so you don't have to navigate through the document tab by tab.
