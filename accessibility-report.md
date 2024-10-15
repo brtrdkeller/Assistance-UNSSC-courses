@@ -49,7 +49,7 @@ Download the [Accessibility Report Grid - xls](assets/UNSSC-Playground-Grid.xlsx
 WCAG test - 1.1.1
 {: .label .label-green }
 
-The card behind The Blue line link, OCHA learn link and The Blue line link, Provide appropriate alt text for the images or mark them as decorative using alt="".
+The card behind The Blue line link, OCHA learn link and The Blue line link, Provide appropriate `alt` text for the images or mark them as decorative using ``alt=""`.
 
 #### Color contrast issue
 {: .d-inline-block .no_toc }
@@ -78,14 +78,6 @@ WCAG test - 1.4.3
 {: .label .label-green }
 
 Search button under Search by username and search by Email, both search buttons does not meet the contrast ratio guideline of 4.5:1.
-
-#### Error Identification
-{: .d-inline-block .no_toc }
-
-WCAG test - 3.3.1
-{: .label .label-green }
-
-Only one error message appears on the screen: 'Enter either username or email address,' even when the user inputs an incorrect email or username, The error message should be specific about the error to help users understand the exact issue.
 
 ### Login Page 
 
@@ -117,7 +109,7 @@ The error message is generic and does not provide specific details about the err
 WCAG test - 1.4.3
 {: .label .label-green }
 
-Search button,  Grid view button, add course link, view all link, lesson 2,3,and 4 and email address at the bottom of the page does not meet the contrast ratio guideline of 4.5:1.
+Search button, Grid view button, add course link, view all link, lesson 2,3,and 4 and email address at the bottom of the page does not meet the contrast ratio guideline of 4.5:1.
 
 #### Main Navigation (Tab index – 1 issue)
 {: .d-inline-block .no_toc }
