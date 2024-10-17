@@ -2,18 +2,21 @@
 nav_exclude: true
 ---
 
-## Digital accessibility Assesment for UNSSC
+## Digital accessibility Assessment for UNSSC
 
 Website to follow the UNSSC digital accessibility evaluation. You'll find all the documents listing users and technical issues.
 
-## Support for accessibility improvement
+### Download Assessment files
 
+ 1. [Accessibility Report Grid - xls(66ko)](assets/UNSSC-Playground-Grid.xlsx)
+ 2. [Digital-Accessibility-Assessment-Report - PDF(909ko)](assets/Digital-Accessibility-Assessment-Report_Handicap-International-2024-10-16.pdf)
+
+
+## Support for accessibility improvement
 
 Legal obligations may force organizations to carry out full audits of their application, with the aim of correcting all accessibility issues.
 
-
 However, these issues are never corrected all at once. It's a question of setting up an improvement process. This website is designed to help you put this process in place.
-
 
 To do this, it is oriented to target the major issues present on the website. This is in line with the demands of some accessibility experts for the WCAG to evolve.
 

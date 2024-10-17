@@ -30,7 +30,7 @@ Download the [Accessibility Report Grid - xls](assets/UNSSC-Playground-Grid.xlsx
  - Color Contrast Analyzer (CCA),
  - Manual Testing.
 
-**Environement:** Windows 10, NVDA 2023.3, Firefox 127
+**Environment:** Windows 10, NVDA 2023.3, Firefox 127
 
 
 {: .note }
@@ -206,7 +206,7 @@ Search buttons and Procurement Training link does not meet the contrast ratio gu
 WCAG test - 2.4.3
 {: .label .label-green }
 
-The focus is jumping from index to main content of the page and index is not accessable using tab navigation.
+The focus is jumping from index to main content of the page and index is not accessible using tab navigation.
 
 ### Profile Page
 
